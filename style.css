@@ -1,0 +1,118 @@
+body {
+  background: linear-gradient(to right, #6600cc 0%, #ff66cc 100%);
+  margin:0;
+  padding:0;
+}
+
+.main {
+  border-top-left-radius :3%;
+  border-top-right-radius :3%;
+  padding: 110px;
+  padding-bottom: 300px;
+  margin: 0px;
+  background: #22181C;
+  /* Old browsers */
+  /*background: -moz-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);*/
+  /* FF3.6-15 */
+  /*background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);*/
+  /* Chrome10-25,Safari5.1-6 */
+  /*background: linear-gradient(45deg, #f7f7f7 0%, #EAE0D5 100%);*/
+}
+
+/** Header styles **/
+
+.header {
+  background: linear-gradient(to right, #6600cc 0%, #ff66cc 100%);
+  height: 50px;
+  background-position: center center;
+}
+
+h1 {
+  color: #3E92CC;
+  font-family: 'Keania One', sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  padding: 0px;
+  position: relative;
+  text-align: center;
+  top: 20%;
+}
+
+/** List style **/
+
+h2 {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-family: 'Vibes';
+  color: #fff;
+  display:inline-block;
+  margin: 0;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 50%;
+}
+
+li {
+  border-bottom: 1px solid #E4BB97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+
+p {
+  color: #444444;
+  line-height: 32px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a {
+  color: #214E34;
+  font-family: 'Raleway', sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  letter-spacing: 2px;
+}
+
+.rectangle {
+  height: 300px;
+  width: 50px;
+  background-color: #FFFFFF;
+  border-radius: 40%;
+}
+
+.fa {
+  display:inline-block;
+  color: #fff;
+  left: 100px;
+  float:right;
+  padding: 10px;
+  margin-right:20px;
+  font-size: 30px;
+  width: 20px;
+  text-align: right;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 100;
+}
